@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bai3.css">
+    <script src="bai3.js"></script>
+</head>
+<body>
+    <p id="temp"></p>
+    <h1 style="text-align: center; color: blue;">Calculator</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <br>
+                <td colspan="4"><input type="text" size="40px" id="inputso"></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="1" value="1" onclick="onclickso1()">1</button></td>
+                <td><button type="button" id="2" value="2" onclick="onclickso2()">2</button></td>
+                <td><button type="button" id="3" value="3" onclick="onclickso3()">3</button></td>
+                <td><button type="button" id="+" onclick="cong()">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="4" value="4" onclick="onclickso4()">4</button></td>
+                <td><button type="button" id="5" value="5" onclick="onclickso5()">5</button></td>
+                <td><button type="button" id="6" value="6" onclick="onclickso6()">6</button></td>
+                <td><button type="button" id="-" onclick="tru()">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="7" value="7" onclick="onclickso7()">7</button></td>
+                <td><button type="button" id="8" value="8" onclick="onclickso8()">8</button></td>
+                <td><button type="button" id="9" value="9" onclick="onclickso9()">9</button></td>
+                <td><button type="button" id="x" onclick="nhan()">x</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" id="C" value="C" onclick="onclickC()">C</button></td>
+                <td><button type="button" id="0" value="0" onclick="onclickso0()">0</button></td>
+                <td><button type="button" id="=" value="=" onclick="onclickbang()">=</button></td>
+                <td><button type="button" id="/" onclick="chia()">/</button></td>
+            </tr>
+        </table>
+    </div>
+    <p id="inputso1"></p>
+</body>
+</html>
